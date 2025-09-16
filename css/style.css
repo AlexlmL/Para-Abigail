@@ -45,6 +45,7 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     gap: 0.2rem;
+    line-height: 1.1; 
 }
 .greetings > span {
     animation: glow 2.5s ease-in-out infinite;
@@ -81,6 +82,16 @@ body{
     font-size: 1.5rem;
     margin-bottom: 20px;
 }
+.dedication{
+      font-size: 1.5rem;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    max-width: 90%;
+    line-height: 1.5; 
+}
 .botones a {
     text-decoration: none;
     background: linear-gradient(135deg, #e90a0a, #ff4da6);
@@ -100,7 +111,8 @@ body{
 @media screen and (max-width:574px){
     .greetings{
         display: block;
-        font-size: 4rem;
+        font-size: 2.5rem;
+        gap: 0.15rem;
         font-weight: 800;
         text-align: center;
     }
